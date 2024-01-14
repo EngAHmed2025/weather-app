@@ -1,0 +1,129 @@
+.body-col {
+    background-color: #1E202B;
+}
+
+.navbar-brand{
+color: white;
+}
+
+
+
+li {
+    margin: 20px;
+    padding: 5px;
+    transition: all  0.8s ease-in-out ;
+}
+
+li:hover{
+    border: 2px solid #009AD8;
+    border-radius: 50px;
+    transform: scale(1.5);
+
+    
+}
+
+
+.background-1 {
+    background-image: url(../pexels-pixabay-209831.jpg);
+    background-size: cover;
+    min-height: 70vh;
+    background-position: center center;
+}
+
+
+
+.navbar-nav .nav-link.active,
+.navbar-nav .nav-link {
+    color: white;
+}
+
+.weather-forcast {
+    background-color: #1E202B;
+    color: white;
+}
+
+
+.bttn {
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+
+span {
+    width: 30%;
+}
+
+span img {
+    width: 5%;
+}
+
+
+.num {
+    font-size: 80px;
+
+}
+
+footer {
+    background-color: #262936;
+    color: white;
+}
+
+.social-links {
+    float: right;
+}
+
+
+i {
+    padding: 15px;
+    background-color: #1E202B;
+    border-radius: 50px;
+
+}
+
+
+i:hover {
+    background-color: #009AD8;
+    color: white;
+    transition: all 0.5s e;
+}
+
+.bttn-1 {
+    position: absolute;
+    left: 42.5%;
+    top: 6px;
+    border-radius: 50px;
+}
+
+.forcast-header {
+    border: 1px solid #1E202B;
+    border-radius: 10px;
+    color: white;
+    padding: 5px;
+    background-color: transparent;
+}
+
+.today {
+    background-color: #323544;
+    height: 350px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.tomowrow {
+    background-color: #262936;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+.latley {
+    background-color: #323544;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+.forecast-table {
+    background-color: #1E202B;
+    color: white;
+
+}

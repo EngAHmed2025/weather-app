@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>WeatherApp</title>
+  <link rel="stylesheet" href="style.css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css/all.min.css">
+  <link rel="stylesheet" href="style.css/inf.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg body-col  ">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img src="logo@2x.png" alt=""
+          class="w-25 p-1">Weather</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse  branding" id="navbarNav">
+        <ul class="navbar-nav ms-auto p-md-4">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#" id="Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Live cameras</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Photos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Content</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+
+
+  <header>
+    <div class="background-1">
+      <form class="w-50 py-5 mx-auto rounded-3 d-flex position-relative ">
+        <input type="search " class="form-control rounded-pill w-100 p-3" placeholder="Find your location" id="search">
+        <input type="button" value="Find" id="submit"
+          class="rounded-2  p-3 rounded-5  mt-2  btn  w-25   btn-info  bttn ">
+      </form>
+    </div>
+  </header>
+
+
+
+  <div class="forecast-table d-flex ">
+    <div class="container">
+      <div class="forecast-container  position-relative bottom-50 d-flex " id="forecast">
+        <div class="today forecast col-md-4">
+          <div class="forcast-header d-flex justify-content-between align-items-between">
+            <span class="day" id="now"> </span>
+            <span>
+              <span class="today-name-byNumber  " id="number"></span>
+              <span class="today-name-byNumber " id="mounth"></span>
+            </span>
+         
+          </div>
+          <div class="forecast-contant text-center ">
+            <div class="location " id="Location"></div>
+            <div class="degree" id="Degree"></div>
+              <div class="num" id="Num-of-Temp">
+              </div>
+              <div class="forecast-icon-today" ">
+              <img id="TempCondtionImage"   src="" alt="">
+              </div>
+          
+            <div class="clear" id="clear-ss"> </div>
+              <div class="custom p-2"></div>
+              <span class="p-4" id="humidity"></span>
+              <span class="p-4" id="wind"></span>
+              <span class="p-4" id="compass"></span>
+            </div>
+          </div>
+
+
+
+
+        <div class="tomowrow forecast col-md-4">
+          <div class="forcast-header text-center" >
+            <span class="day Nextday" ></span>
+          </div>
+          <div class="forecast-contant text-center" >
+            <div class="forecast-icon " >
+              <img class="condtion" src="" alt="">
+            </div>
+            <div class="degree greatest-temp"></div>
+              <div class="num smallest-temp">
+            
+              </div>
+            </div>
+          </div>
+
+
+        <div class="latley forecast col-md-4">
+          <div class="forcast-header text-center" >
+            <span class="day Nextday"></span>
+          </div>
+          <div class="forecast-contant text-center" >
+            <div class="forecast-icon">
+              <img class="condtion" src="" alt="">
+            </div>
+            <div class="degree greatest-temp" ></div>
+              <div class="num smallest-temp" >
+                
+              </div>
+            </div>
+          </div>
+
+
+    
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+    
+
+
+  <footer class="site-footer py-4 mt-3">
+    <div class="container">
+      <form class="position-relative">
+        <input type="search" placeholder="enter your eamil to subscribe..."
+        class=" rounded-pill p-4 w-50 form-control-color  ">
+        <input type="button" class=" btn btn-info  bttn-1  " value="subscribe">
+      </form>
+     
+      <div class="social-links">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-google-plus"></i></a>
+        <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+      </div>
+      <p class="py-4">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+    </div>
+
+  </footer>
+
+<script src="style.css/bootstrap.bundle.js"></script>
+  <script src="style.css/main.js"></script>
+</body>
+
+</html>
